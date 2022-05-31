@@ -1,0 +1,20 @@
+INT MAIN F2() /**  CORRECT PROGRAM. FUNCTION CALLS. OUTPUT := 12.5**/
+BEGIN  
+   INT A;
+   A := F1(3);
+   REAL B;
+   B := F2(A, 4.5);
+   WRITE(B,"XKOUTPUT");	
+ END
+
+INT F1(INT A1)  
+BEGIN 
+	RETURN A1 + 5;
+END
+
+REAL F2(INT A1, REAL A2)
+BEGIN
+  REAL B;
+  B := A1 + A2;
+  RETURN B;
+END
