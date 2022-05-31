@@ -1,0 +1,11 @@
+Script started on 2022-03-27 20:00:00-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ ./ayq4gcc -o ayq4 ayq4.c[1P.c5.c[1P ayq5.c5 ayq5.c[C[C[C[C[C[C[C
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ ./ayq5 ls
+Parent process...
+Total number of bytes: 197
+ayq1.c	   ayq2.c     ayq3	 ayq3t.log  ayq4s.txt  ayq5.c	  donothing.c
+ayq1s.txt  ayq2s.txt  ayq3.c	 ayq4	    ayq4t.log  ayq5s.txt  q5
+ayq1t.log  ayq2t.log  ayq3s.txt  ayq4.c     ayq5       ayq5t.log  result.txt
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ exit
+
+Script done on 2022-03-27 20:00:14-04:00 [COMMAND_EXIT_CODE="0"]

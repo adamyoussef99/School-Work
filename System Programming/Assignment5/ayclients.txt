@@ -1,0 +1,19 @@
+Script started on 2022-04-10 16:03:19-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ gcc-[K -o client[K[K[K[K[K[Kat[Kyclient aycliu[Kent.c
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ ./ayclient
+Connected: type in data to be sent
+hello
+I have received your message.
+I have received your message.
+I have received your message.
+I have received your message.
+I have received your message.
+I have received your message.
+bye
+I have received your message.
+I have received your message.
+I have received your message.
+I have received your message.
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ exit
+
+Script done on 2022-04-10 16:04:03-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,4 @@
+Adam Youssef
+104785050
+
+The reason the while loop runs forever is because of the unsigned char. When we get to the end of the file, the unsigned char is represented as 255 with '\377', so it will never hit the 0xff ff ff ff that it needs to hit EOF. This causes it to loop infinitely. The way to fix it is to change the unsigned char into an int and it will end at the proper position.

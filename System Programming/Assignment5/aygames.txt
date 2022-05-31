@@ -1,0 +1,109 @@
+Script started on 2022-04-10 16:00:26-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="96" LINES="24"]
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ gcc -o game[K[K[K[Kaygame aygame.c
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ ./aygame
+This is a 2-player game with a referee
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 7 dice
+Player1: Total so far 7
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 5 dice
+Player2: Total so far 5
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 1 dice
+Player1: Total so far 8
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 7 dice
+Player2: Total so far 12
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 5 dice
+Player1: Total so far 13
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 9 dice
+Player2: Total so far 21
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 10 dice
+Player1: Total so far 23
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 1 dice
+Player2: Total so far 22
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 1 dice
+Player1: Total so far 24
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 3 dice
+Player2: Total so far 25
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 2 dice
+Player1: Total so far 26
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 7 dice
+Player2: Total so far 32
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 2 dice
+Player1: Total so far 28
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 2 dice
+Player2: Total so far 34
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 9 dice
+Player1: Total so far 37
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 9 dice
+Player2: Total so far 43
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 4 dice
+Player1: Total so far 41
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 5 dice
+Player2: Total so far 48
+
+Referee: Player1 plays
+Player1: playing my dice
+Player1: got 5 dice
+Player1: Total so far 46
+
+Referee: Player2 plays
+Player2: playing my dice
+Player2: got 10 dice
+Player2: Total so far 58
+
+Player2: game over I won
+Terminated
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ exit
+
+Script done on 2022-04-10 16:02:20-04:00 [COMMAND_EXIT_CODE="143"]

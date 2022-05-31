@@ -1,0 +1,11 @@
+Script started on 2022-04-10 16:03:06-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="24"]
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ script aygames.txt --timing=aygamet.log./game[Kscript aygames.txt --timing=aygamet.log[Kscript aygames.txt --timing=aygamet.log./game[Kgcc -o game game.c[C[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.ca.cy.cs.ce.cr.cv.ce.cr.c .ca.cy.cs.ce.cr.cv.ce.cr.c
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ ./ayserver
+Waiting for a client
+Got a client: hello
+bye
+Waiting for a client
+^C
+]0;student@compxxxx: ~/Desktop/Assignment5[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment5[00m$ exit
+
+Script done on 2022-04-10 16:04:11-04:00 [COMMAND_EXIT_CODE="130"]

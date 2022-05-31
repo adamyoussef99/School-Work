@@ -1,0 +1,9 @@
+Script started on 2022-03-27 13:15:16-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ ./ayq1gcc -o ayq1 ayq1.c[12P./ayq1gcc -o ayq1 ayq1.c
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ gcc -o ayq1 ayq1.c[12P./ayq1
+I am in a parent process
+Ctrl + c pressed 
+^CCtrl + c pressed 
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ ./ayq1[K[K[K[K[K[Kexit
+
+Script done on 2022-03-27 13:15:37-04:00 [COMMAND_EXIT_CODE="0"]

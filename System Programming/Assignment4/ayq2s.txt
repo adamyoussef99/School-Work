@@ -1,0 +1,10 @@
+Script started on 2022-03-27 13:52:37-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ script ayq1s.txt --timing=ayq1t.log./ayq1[Kgcc -o ayq1 ayq1.c[C[C[1P.c2.c[1P ayq2.c2 ayq2.c
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ gcc -o ayq2 ayq2.cscript ayq1s.txt --timing=ayq1t.log./ayq1[Kgcc -o ayq1 ayq1.c[12P./ayq1[K2 5
+alarm application starting
+waiting for alarm to go off
+Ding!
+Done!
+]0;student@compxxxx: ~/Desktop/Assignment4[01;32mstudent@compxxxx[00m:[01;34m~/Desktop/Assignment4[00m$ exit
+
+Script done on 2022-03-27 13:52:56-04:00 [COMMAND_EXIT_CODE="0"]

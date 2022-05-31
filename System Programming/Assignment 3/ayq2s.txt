@@ -1,0 +1,78 @@
+Script started on 2022-03-11 19:14:00-05:00 [TERM="xterm-256color" TTY="/dev/pts/27" COLUMNS="107" LINES="24"]
+[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment3[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment3[00m$ ./ayabortgcc -o ayabort ayabort.c[C[C./q2 cat ayq2.c ls -t ps[8Pgcc -o q2 ayq2.c./q2 cat ayq2.c ls -t ps[8Pgcc -o q2 ayq2.c[C[1@a[1@y
+[?2004l[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment3[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment3[00m$ gcc -o ayq2 ayq2.c[9P./ayabortgcc -o ayabort ayabort.c./q2 cat ayq2.c ls -t ps[C[1@a[1@y[1@u[1P
+[?2004lProcess ID: 2223161
+Process ID: 2223163
+Process ID: 2223162
+Process ID: 2223164
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+
+int main(int where, char **cline){
+	int signal;
+	//if there is only one Unix command
+	if(where-1 == 1){
+		if(fork() == 0){
+		
+			printf("Process ID: %d\n", getpid());
+			execlp(cline[1], cline[1], NULL, (char *) NULL);
+			printf("\n");
+			exit(1);
+			
+		}
+		
+		wait(&signal);	
+	}
+	
+	//if there is more than 1 argument
+	else if(where-1 > 1){
+	
+		//go through command line Unix commands
+		for(int i = 1; i < where-1; i++){
+		
+			//if the fork is successful
+			if(fork()==0){
+			
+				//print process ID
+				printf("Process ID: %d\n", getpid());
+				
+				//if we are at the last Unix command
+				if(i==where-1){
+				
+					//run the last Unix command, third param is null because there are no arguments
+					execlp(cline[i], cline[i], NULL, (char *) NULL);
+					printf("\n");
+					
+				}
+				
+				else{
+				
+					//Run the current Unix command with it's argument
+					execlp(cline[i], cline[i], cline[i+1], (char *) NULL);
+					printf("\n");
+					
+				}
+				
+				exit(1);
+			}
+					
+		}
+		
+		for(int i = 0; i < where-1; i++){
+			wait(&signal);
+		}
+	}
+	
+	exit(1);
+}
+ayq2  ayq2t.log  ayq2s.txt  ayabortt.log  ayaborts.txt	ayabort  ayabort.c  ayq2.c
+[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment3[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment3[00m$ [?2004l
+exit
+
+Script done on 2022-03-11 19:14:25-05:00 [COMMAND_EXIT_CODE="1"]

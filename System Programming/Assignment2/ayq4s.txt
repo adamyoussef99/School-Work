@@ -1,0 +1,7 @@
+Script started on 2022-02-18 23:16:02-05:00 [TERM="xterm-256color" TTY="/dev/pts/77" COLUMNS="231" LINES="53"]
+[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment2[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment2[00m$ ./ayq3 t1.txt t2.txt t3.txt[9Pgcc -o ayq3 ayq3.c[1P.c4.c[1P ayq4.c4 ayq4.c
+[?2004l[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment2[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment2[00m$ gcc -o ayq4 ayq4.c./ayq3 t1.txt t2.txt t3.txt[C[C[1P[1@4
+[?2004l[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment2[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment2[00m$ [?2004l
+exit
+
+Script done on 2022-02-18 23:16:32-05:00 [COMMAND_EXIT_CODE="0"]

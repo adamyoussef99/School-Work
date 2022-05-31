@@ -1,0 +1,13 @@
+Script started on 2022-03-11 19:12:47-05:00 [TERM="xterm-256color" TTY="/dev/pts/27" COLUMNS="80" LINES="24"]
+[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment3[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment3[00m$ gcc -o asy[K[Kyabort ayabort.c
+[?2004l[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment3[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment3[00m$ ./abort[K[K[K[K[Kayabort
+[?2004lbefore: mypid is 2218328
+I am the parent 2218328
+I am the child 2218329 now sleeping...
+My child 2218329 has terminated
+I have received the status = 6
+Child status = 0 Signal = 6 Core = 0
+[?2004h]0;yousse12@bravo: ~/Desktop/2560/Assignment3[01;32myousse12@bravo[00m:[01;34m~/Desktop/2560/Assignment3[00m$ [?2004l
+exit
+
+Script done on 2022-03-11 19:13:34-05:00 [COMMAND_EXIT_CODE="0"]
